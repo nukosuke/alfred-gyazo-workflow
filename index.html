@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Alfred Gyazo Workflow by nukosuke</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Alfred Gyazo Workflow by nukosuke</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Alfred Gyazo Workflow</h1>
-        <h2>AlfredでGyazoにアップロードした画像リンクを貼り付けるワークフロー</h2>
-        <a href="https://github.com/nukosuke/alfred-gyazo-workflow" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+    <section class="page-header">
+      <h1 class="project-name">Alfred Gyazo Workflow</h1>
+      <h2 class="project-tagline">AlfredでGyazoにアップロードした画像リンクを貼り付けるワークフロー</h2>
+      <a href="https://github.com/nukosuke/alfred-gyazo-workflow" class="btn">View on GitHub</a>
+      <a href="https://github.com/nukosuke/alfred-gyazo-workflow/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nukosuke/alfred-gyazo-workflow/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p><a href="https://gyazo.com/26af8d7ec21795fa699232b71b7c8d50"><img src="https://i.gyazo.com/26af8d7ec21795fa699232b71b7c8d50.gif" alt="https://gyazo.com/26af8d7ec21795fa699232b71b7c8d50"></a></p>
+    <section class="main-content">
+      <p><a href="https://gyazo.com/26af8d7ec21795fa699232b71b7c8d50"><img src="https://i.gyazo.com/26af8d7ec21795fa699232b71b7c8d50.gif" alt="https://gyazo.com/26af8d7ec21795fa699232b71b7c8d50"></a></p>
+
+<p><br><br><br></p>
 
 <h2>
-<a id="素早くgyazoにアップロードした画像リンクを貼り付ける" class="anchor" href="#%E7%B4%A0%E6%97%A9%E3%81%8Fgyazo%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E7%94%BB%E5%83%8F%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91%E3%82%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>素早くGyazoにアップロードした画像リンクを貼り付ける</h2>
+<a id="mount_fuji-素早くgyazoにアップロードした画像リンクを貼り付ける" class="anchor" href="#mount_fuji-%E7%B4%A0%E6%97%A9%E3%81%8Fgyazo%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E7%94%BB%E5%83%8F%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91%E3%82%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji alias="mount_fuji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f5fb.png">🗻</g-emoji> 素早くGyazoにアップロードした画像リンクを貼り付ける</h2>
 
 <p>以下のフォーマットで貼り付けられます。</p>
 
@@ -43,47 +36,64 @@
 
 <p>選択した画像リンクはクリップボードにコピーされ、選択中のウィンドウがある場合は自動でペーストされます。</p>
 
+<p><br><br><br></p>
+
 <h2>
 <a id="package-インストール" class="anchor" href="#package-%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji alias="package" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji> インストール</h2>
 
+<p><a href="https://github.com/nukosuke/alfred-gyazo-workflow/releases/download/v0.0.0-alpha/Gyazo.alfredworkflow">こちら</a>からワークフローパッケージをダウンロードして開くと、次のような確認画面が出るので<code>Import</code>を押してください。</p>
+
+<p><a href="https://gyazo.com/053f8822a7e9790140ca5221f4034c1f"><img src="https://i.gyazo.com/053f8822a7e9790140ca5221f4034c1f.png" alt="https://gyazo.com/053f8822a7e9790140ca5221f4034c1f"></a></p>
+
+<p><br><br><br></p>
+
 <h2>
-<a id="初期設定" class="anchor" href="#%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>初期設定</h2>
+<a id="wrench-初期設定" class="anchor" href="#wrench-%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji alias="wrench" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f527.png">🔧</g-emoji> 初期設定</h2>
 
 <h4>
 <a id="gyazoでアプリケーションを登録しトークンを生成する" class="anchor" href="#gyazo%E3%81%A7%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%97%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%82%92%E7%94%9F%E6%88%90%E3%81%99%E3%82%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gyazoでアプリケーションを登録しトークンを生成する</h4>
 
+<p><a href="https://gyazo.com/oauth/applications">Gyazo</a>で[New Application]を選択してアプリケーションを登録します。</p>
+
+<p><a href="https://gyazo.com/d7abb16f9767aeb3d10819ed79f99bc2"><img src="https://i.gyazo.com/d7abb16f9767aeb3d10819ed79f99bc2.png" alt="https://gyazo.com/d7abb16f9767aeb3d10819ed79f99bc2"></a></p>
+
+<p>[Submit]を押して作成したアプリケーションのページで[Generate]を押してトークンを生成し、コピーしておいてください。</p>
+
 <h4>
 <a id="alfred-gyazo-workflowにトークンを保存する" class="anchor" href="#alfred-gyazo-workflow%E3%81%AB%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Alfred Gyazo Workflowにトークンを保存する</h4>
 
+<p><a href="https://gyazo.com/3d154941714f7dd141af707074b87ca9"><img src="https://i.gyazo.com/3d154941714f7dd141af707074b87ca9.gif" alt="https://gyazo.com/3d154941714f7dd141af707074b87ca9"></a></p>
+
 <p>トークンは<code>~/.gyazo/config.json</code>に保存されます。</p>
 
-<h2>
-<a id="コンタクト" class="anchor" href="#%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>コンタクト</h2>
+<p><br><br><br></p>
 
-<p><a href="https://github.com/nukosuke" class="user-mention">@nukosuke</a></p>
+<h2>
+<a id="bust_in_silhouette-コンタクト" class="anchor" href="#bust_in_silhouette-%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji alias="bust_in_silhouette" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f464.png">👤</g-emoji> コンタクト</h2>
+
+<ul>
+<li>github: <a href="https://github.com/nukosuke" class="user-mention">@nukosuke</a>
+</li>
+<li>twitter: <a href="https://twitter.com/pg_nukosuke">@pg_nukosuke</a>
+</li>
+</ul>
+
+<p><br><br><br></p>
 
 <h2>
 <a id="copyright-ライセンス" class="anchor" href="#copyright-%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji alias="copyright" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/00a9.png">©️</g-emoji> ライセンス</h2>
 
-<p>MIT</p>
-        </section>
+<p>Copyright (c) 2016 ぬこすけ<br>
+本ソフトウェアはMITライセンスのもと配布します。<br>
+<a href="http://opensource.org/licenses/mit-license.php">http://opensource.org/licenses/mit-license.php</a></p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/nukosuke/alfred-gyazo-workflow/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/nukosuke/alfred-gyazo-workflow/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nukosuke/alfred-gyazo-workflow">Alfred Gyazo Workflow</a> is maintained by <a href="https://github.com/nukosuke">nukosuke</a>.</span>
 
-          <p class="repo-owner"><a href="https://github.com/nukosuke/alfred-gyazo-workflow"></a> is maintained by <a href="https://github.com/nukosuke">nukosuke</a>.</p>
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+    </section>
 
   
   </body>
